@@ -7,7 +7,7 @@ beforeEach(() => {
   jest.resetAllMocks();
 });
 
-test('should call getLevel once', () => {
+test('check getLevel', () => {
   fetchData.mockReturnValue(JSON.stringify({}));
 
   const response = getLevel(1);
